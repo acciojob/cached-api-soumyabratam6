@@ -36,7 +36,7 @@ const CachedApiComponent = () => {
         />
       </div>
       {loading ? (
-        <p>Loading data...</p> // Show loading message when fetching
+        <p>Loading...</p> // Show loading message when fetching
       ) : (
         <ul>
           {/* Render memoized posts data */}
